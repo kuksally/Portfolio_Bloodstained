@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{77994adb-bb80-42e8-886b-851bb890958e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework">
+      <UniqueIdentifier>{fae288c9-1a89-4141-bbae-e4f3680953fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Manager">
+      <UniqueIdentifier>{b13c0c7c-4aa6-4918-a643-613eaee0edc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Timer">
+      <UniqueIdentifier>{1e84e8d0-34db-4438-9c9b-8c3603ab2fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\UI">
+      <UniqueIdentifier>{f77d4c3b-d1c0-4152-8943-cde8ada65ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\UI\Button">
+      <UniqueIdentifier>{91eb96ad-df64-4b6d-bc8b-8a504d0d37bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Camera">
+      <UniqueIdentifier>{72ed95da-2fd7-43bb-803a-82058abb559c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\UI\Battle">
+      <UniqueIdentifier>{cbe33446-b4ce-49dc-81f8-cb942d17b8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Boss">
+      <UniqueIdentifier>{bbeae88a-92c2-4a0d-9b05-022f4092b8a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Enemy">
+      <UniqueIdentifier>{6e5df244-c6a3-43cb-b9d0-02b9ddf1a72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Missile">
+      <UniqueIdentifier>{5a86d586-c7fc-46be-93af-bd645e44e8f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Player">
+      <UniqueIdentifier>{9e69c14a-7910-4247-a7cb-1a71537b0a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Scene">
+      <UniqueIdentifier>{43d02367-700b-49b5-a030-feb7b581ed9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Scene\TileMapTool">
+      <UniqueIdentifier>{c0549cb9-6673-46cf-9ea1-5d743a170631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Scene\Astar">
+      <UniqueIdentifier>{c0942888-fb73-40e8-a158-927b3595bf02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Scene\GameOver">
+      <UniqueIdentifier>{e9a06204-d62b-41dd-a400-e741fdc8b868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Scene\LoadingScene">
+      <UniqueIdentifier>{2efe9ea5-a00a-458e-ba29-90190d0b9830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Scene\Title&amp;Select">
+      <UniqueIdentifier>{b7f4fea8-2564-4b8d-b0ed-bd667e237cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Collision">
+      <UniqueIdentifier>{263520db-3dea-47e2-8547-706b51cc3fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Item">
+      <UniqueIdentifier>{f52f7a29-6bfc-42da-86f4-29504b7c1bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Image">
+      <UniqueIdentifier>{394e2c79-61cb-43a3-b5fd-8f4a4d171b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Scene\Stage">
+      <UniqueIdentifier>{a64449e6-ca89-4689-9380-09653dc0c601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\GameData">
+      <UniqueIdentifier>{df1168bf-f23e-4f0e-acc3-5f30eb1bb2ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>2D Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy1.cpp">
+      <Filter>2D Framework\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>2D Framework\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>2D Framework\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>2D Framework\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>2D Framework\Scene\LoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>2D Framework\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>2D Framework\Scene\Title&amp;Select</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>2D Framework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraObject.cpp">
+      <Filter>2D Framework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="TilemapTool.cpp">
+      <Filter>2D Framework\Scene\TileMapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AstarScene.cpp">
+      <Filter>2D Framework\Scene\Astar</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>2D Framework\Scene\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectScene.cpp">
+      <Filter>2D Framework\Scene\Title&amp;Select</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckCollision.cpp">
+      <Filter>2D Framework\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>2D Framework\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy2.cpp">
+      <Filter>2D Framework\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy3.cpp">
+      <Filter>2D Framework\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleBoss.cpp">
+      <Filter>2D Framework\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>2D Framework\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUI.cpp">
+      <Filter>2D Framework\UI\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>2D Framework\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>2D Framework\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>2D Framework\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>2D Framework\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>2D Framework\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4.cpp">
+      <Filter>2D Framework\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage5_Boss.cpp">
+      <Filter>2D Framework\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="LastBoss.cpp">
+      <Filter>2D Framework\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>2D Framework\GameData</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy1.h">
+      <Filter>2D Framework\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>2D Framework\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>2D Framework\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>2D Framework\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>2D Framework\Scene\LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>2D Framework\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>2D Framework\Scene\Title&amp;Select</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraObject.h">
+      <Filter>2D Framework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>2D Framework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="TilemapTool.h">
+      <Filter>2D Framework\Scene\TileMapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="AstarScene.h">
+      <Filter>2D Framework\Scene\Astar</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>2D Framework\Scene\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectScene.h">
+      <Filter>2D Framework\Scene\Title&amp;Select</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckCollision.h">
+      <Filter>2D Framework\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>2D Framework\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy2.h">
+      <Filter>2D Framework\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy3.h">
+      <Filter>2D Framework\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleBoss.h">
+      <Filter>2D Framework\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>2D Framework\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUI.h">
+      <Filter>2D Framework\UI\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>2D Framework\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>2D Framework\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>2D Framework\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>2D Framework\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>2D Framework\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4.h">
+      <Filter>2D Framework\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage5_Boss.h">
+      <Filter>2D Framework\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="LastBoss.h">
+      <Filter>2D Framework\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>2D Framework\GameData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
